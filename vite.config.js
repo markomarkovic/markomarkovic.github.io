@@ -34,7 +34,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
 
-  define: {
-    __LAST_UPDATE__: JSON.stringify(new Date().toISOString()),
-  },
+  // define: {
+  //   __LAST_UPDATE__: JSON.stringify(new Date().toISOString()),
+  // },
 })
