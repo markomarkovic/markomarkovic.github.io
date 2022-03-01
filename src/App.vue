@@ -146,4 +146,7 @@ function old(y = 1980, m = 6, d = 17) {
 * {
   font-family: 'Roboto Condensed', sans-serif;
 }
+a {
+  border-bottom: 1px solid #444;
+}
 </style>
