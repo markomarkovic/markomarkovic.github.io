@@ -1,0 +1,75 @@
+{
+  "name": "okram.civokram.com",
+  "description": "Personal site",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "vue": "3.2.31"
+  },
+  "devDependencies": {
+    "@iconify-json/tabler": "1.1.1",
+    "@unocss/preset-icons": "0.27.0",
+    "@unocss/reset": "0.27.0",
+    "@vitejs/plugin-vue": "2.2.4",
+    "eslint": "8.10.0",
+    "eslint-config-prettier": "8.4.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-vue": "8.5.0",
+    "lint-staged": "12.3.4",
+    "prettier": "2.5.1",
+    "simple-git-hooks": "2.7.0",
+    "unocss": "0.27.0",
+    "unplugin-vue-components": "0.17.21",
+    "vite": "2.8.5"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint . --ext=.js,.vue --fix",
+    "prepare": "pnpx simple-git-hooks",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpx lint-staged"
+  },
+  "lint-staged": {
+    "**/*.{js,vue}": [
+      "pnpm run lint"
+    ]
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "es2021": true
+    },
+    "plugins": [
+      "prettier",
+      "vue"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "extends": [
+      "plugin:vue/vue3-recommended",
+      "plugin:prettier/recommended"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error"
+      ]
+    },
+    "ignorePatterns": [
+      "**/node_modules",
+      "**/dist"
+    ]
+  }
+}

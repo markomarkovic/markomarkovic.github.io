@@ -1,0 +1,17 @@
+# Specifies intentionally untracked files to ignore when using Git
+# https://git-scm.com/docs/gitignore
+
+# Logs
+*.log*
+
+# Node
+node_modules/
+
+# NPM / Yarn (use PNPM instead)
+package-lock.json
+yarn.lock
+
+# Frontend
+dist
+dist-ssr
+*.local
