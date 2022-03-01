@@ -17,6 +17,7 @@
     "eslint-plugin-vue": "8.5.0",
     "lint-staged": "12.3.4",
     "prettier": "2.5.1",
+    "qrcode": "1.5.0",
     "simple-git-hooks": "2.7.0",
     "unocss": "0.27.0",
     "unplugin-vue-components": "0.17.21",
@@ -24,6 +25,7 @@
   },
   "scripts": {
     "build": "vite build",
+    "build:vcard": "pnpx qrcode -t svg -o public/vcard.svg < public/marko-markovic.vcard",
     "dev": "vite",
     "lint": "eslint . --ext=.js,.vue --fix",
     "prepare": "pnpx simple-git-hooks",
