@@ -13,7 +13,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          pnpm ci
+          npm i -g pnpm
+          pnpm i
           pnpm run build
           pnpm run build:vcard
           pnpm run build:timestamp
