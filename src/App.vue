@@ -27,16 +27,7 @@ function old(y = 1980, m = 6, d = 17) {
 
 <template>
   <div class="max-w-2xl mx-auto mx-4 px-4 mt-10">
-    <h1 class="font-normal leading-tight text-3xl">Marko Marković</h1>
-
-    <!-- Intro -->
-    <section class="mt-5 mb-10">
-      <p>
-        is crafting code online since the 20th century and still thinks it's
-        fun. Favorite quote? "I'd rather write programs that write programs than
-        write programs."
-      </p>
-    </section>
+    <h1 class="font-normal leading-tight text-3xl mb-10">Marko Marković</h1>
 
     <!-- Homebase -->
     <section class="flex items-center mb-5 leading-none">
