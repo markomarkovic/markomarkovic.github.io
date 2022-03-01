@@ -20,7 +20,6 @@
     "qrcode": "1.5.0",
     "simple-git-hooks": "2.7.0",
     "unocss": "0.27.0",
-    "unplugin-vue-components": "0.17.21",
     "vite": "2.8.5"
   },
   "scripts": {
