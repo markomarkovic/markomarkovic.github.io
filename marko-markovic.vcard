@@ -1,11 +1,8 @@
 BEGIN:VCARD
 VERSION:3.0
-FN;CHARSET=UTF-8:Marko Marković
-N;CHARSET=UTF-8:Marković;Marko;;;
-EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:okram@civokram.com
-TEL;TYPE=CELL,VOICE:+38162200512
-TEL;TYPE=CELL,VOICE:+971502526569
-URL;CHARSET=UTF-8:https://okram.civokram.com
-X-SOCIALPROFILE;TYPE=Instagram:https://www.instagram.com/okramcivokram/
-X-SOCIALPROFILE;TYPE=GitHub:https://github.com/markomarkovic/
+N;CHARSET=UTF-8:Marković;Marko;
+EMAIL:okram@civokram.com
+TEL:+38162200512
+TEL:+971502526569
+URL:https://okram.civokram.com
 END:VCARD
