@@ -96,19 +96,6 @@ function old(y = 1980, m = 6, d = 17) {
       </p>
     </section>
 
-    <!-- Instagram -->
-    <!--
-    <section class="flex items-center mb-5 leading-none">
-      <div class="min-w-5 min-h-5 mr-4 i-tabler-brand-instagram" />
-      <p>
-        posts photos to
-        <a href="https://www.instagram.com/okramcivokram/">
-          Instagram: <b>okramcivokram</b>
-        </a>
-      </p>
-    </section>
-    -->
-
     <!-- CV -->
     <section class="flex items-center mb-5 leading-none">
       <div class="min-w-5 min-h-5 mr-4 i-tabler-history" />
