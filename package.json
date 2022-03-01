@@ -25,7 +25,7 @@
   },
   "scripts": {
     "build": "vite build",
-    "build:vcard": "pnpx qrcode -t svg -o public/vcard.svg < public/marko-markovic.vcard",
+    "build:vcard": "pnpx qrcode -t svg -o public/vcard.svg -q 0 < public/marko-markovic.vcard",
     "build:timestamp": "pnpx replace-in-files --string __LAST_UPDATE__ --replacement `date --iso` dist/assets/index.*.js",
     "dev": "vite",
     "lint": "eslint . --ext=.js,.vue --fix",
