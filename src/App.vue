@@ -129,9 +129,9 @@ function old(y = 1980, m = 6, d = 17) {
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 a {
   border-bottom: 1px solid #444;
