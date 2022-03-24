@@ -32,8 +32,8 @@ function old(y = 1980, m = 6, d = 17) {
     <!-- Homebase -->
     <section class="flex items-center mb-5 leading-none">
       <div class="min-w-5 min-h-5 mr-4 i-tabler-map-pin" />
-      <p>is currently in <b>Dubai</b>, United Arab Emirates</p>
-      <!-- <p>is currently in <b>Belgrade</b>, Serbia</p> -->
+      <!-- <p>is currently in <b>Dubai</b>, United Arab Emirates</p> -->
+      <p>is currently in <b>Belgrade</b>, Serbia</p>
     </section>
 
     <!-- Age -->
