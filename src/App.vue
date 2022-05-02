@@ -65,11 +65,11 @@ function old(y = 1980, m = 6, d = 17) {
     <section class="flex items-center mb-5 leading-none">
       <div class="min-w-5 min-h-5 mr-4 i-tabler-phone" />
       <p>
-        or on
+        can be reached on
         <a href="tel:+971502526569">
           <b><abbr title="United Arab Emirates">+971</abbr> 50 252 6569</b>
         </a>
-        when in UAE
+        phone number when in UAE
       </p>
     </section>
 
@@ -77,11 +77,11 @@ function old(y = 1980, m = 6, d = 17) {
     <section class="flex items-center mb-5 leading-none">
       <div class="min-w-5 min-h-5 mr-4 i-tabler-phone" />
       <p>
-        can be reached on
+        or on
         <a href="tel:+38162200512">
           <b><abbr title="Serbia">+381</abbr> 62 200 512</b>
         </a>
-        phone number when in Serbia
+        when in Serbia
       </p>
     </section>
 
