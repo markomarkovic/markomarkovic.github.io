@@ -4,24 +4,24 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "vue": "3.2.37"
+    "vue": "3.3.0"
   },
   "devDependencies": {
-    "@iconify-json/tabler": "1.1.14",
-    "@unocss/preset-icons": "0.39.0",
-    "@unocss/reset": "0.39.0",
-    "@vitejs/plugin-vue": "2.3.3",
-    "eslint": "8.17.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-vue": "9.1.1",
-    "lint-staged": "13.0.1",
-    "prettier": "2.7.1",
-    "qrcode": "1.5.0",
-    "replace-in-files-cli": "2.0.0",
-    "simple-git-hooks": "2.8.0",
-    "unocss": "0.32.8",
-    "vite": "2.9.12"
+    "@iconify-json/tabler": "1.1.74",
+    "@unocss/preset-icons": "0.51.12",
+    "@unocss/reset": "0.51.12",
+    "@vitejs/plugin-vue": "4.2.2",
+    "eslint": "8.40.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-vue": "9.12.0",
+    "lint-staged": "13.2.2",
+    "prettier": "2.8.8",
+    "qrcode": "1.5.3",
+    "replace-in-files-cli": "2.1.0",
+    "simple-git-hooks": "2.8.1",
+    "unocss": "0.51.12",
+    "vite": "4.3.5"
   },
   "scripts": {
     "build": "vite build",
