@@ -66,14 +66,16 @@ function old(y = 1980, m = 6, d = 17) {
       <div class="min-w-5 min-h-5 mr-4 i-tabler-phone" />
       <p>
         can be reached on
-        <a href="tel:+971502526569">
-          <b><abbr title="United Arab Emirates">+971</abbr> 50 252 6569</b>
+        <a href="tel:+971502524342">
+          <b><abbr title="United Arab Emirates">+971</abbr> 50 252 4342</b>
         </a>
-        phone number when in UAE
+        phone number
+        <!-- when in UAE -->
       </p>
     </section>
 
     <!-- Phone -->
+    <!--
     <section class="flex items-center mb-5 leading-none">
       <div class="min-w-5 min-h-5 mr-4 i-tabler-phone" />
       <p>
@@ -84,6 +86,7 @@ function old(y = 1980, m = 6, d = 17) {
         when in Serbia
       </p>
     </section>
+    -->
 
     <!-- GitHub -->
     <section class="flex items-center mb-5 leading-none">
