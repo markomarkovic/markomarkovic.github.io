@@ -10,7 +10,12 @@ function old(y = 1980, m = 6, d = 17) {
   }
   if (days < 0) {
     months = Math.max(0, months - 1)
-    days += 30
+    const daysInPrevMonth = new Date(
+      now.getFullYear(),
+      now.getMonth(),
+      0
+    ).getDate()
+    days += daysInPrevMonth
   }
   let msg = `${years} years`
   if (months !== 0) {
