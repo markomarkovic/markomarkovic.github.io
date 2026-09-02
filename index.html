@@ -4,9 +4,142 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marko Marković</title>
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
-    <main id="app"></main>
+    <div class="page">
+      <h1>Marko Marković</h1>
+
+      <!-- Homebase -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0-6 0" />
+            <path d="M17.657 16.657L13.414 20.9a2 2 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
+          </g>
+        </svg>
+        <p>is currently in <b>Dubai</b>, United Arab Emirates</p>
+        <!-- <p>is currently in <b>Belgrade</b>, Serbia</p> -->
+      </section>
+
+      <!-- Age -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1z" />
+            <path d="M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+          </g>
+        </svg>
+        <p>is <span id="age"></span></p>
+      </section>
+
+      <!-- Language -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M4 5h7M9 3v2c0 4.418-2.239 8-5 8" />
+            <path d="M5 9c0 2.144 2.952 3.908 6.7 4m.3 7l4-9l4 9m-.9-2h-6.2" />
+          </g>
+        </svg>
+        <p>speaks <b>Serbian</b>, <b>English</b>, and <b>German</b></p>
+      </section>
+
+      <!-- Mail -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+            <path d="m3 7l9 6l9-6" />
+          </g>
+        </svg>
+        <p>
+          uses
+          <a href="mailto:okram@civokram.com"><b>okram@civokram.com</b></a> as
+          a primary email address
+        </p>
+      </section>
+
+      <!-- Phone -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" />
+        </svg>
+        <p>
+          can be reached on
+          <a href="tel:+971502524342">
+            <b><abbr title="United Arab Emirates">+971</abbr> 50 252 4342</b>
+          </a>
+          phone number
+          <!-- when in UAE -->
+        </p>
+      </section>
+
+      <!-- Phone -->
+      <!--
+      <section>
+        <div class="icon"></div>
+        <p>
+          or on
+          <a href="tel:+38162200512">
+            <b><abbr title="Serbia">+381</abbr> 62 200 512</b>
+          </a>
+          when in Serbia
+        </p>
+      </section>
+      -->
+
+      <!-- GitHub -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21" />
+        </svg>
+        <p>
+          codes on
+          <a href="https://github.com/markomarkovic/"
+            >GitHub: <b>markomarkovic</b></a
+          >
+        </p>
+      </section>
+
+      <!-- CV -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M12 8v4l2 2" />
+            <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" />
+          </g>
+        </svg>
+        <p>
+          touches up his
+          <a href="https://markomarkovic.github.io/cv/">
+            <abbr title="Curriculum Vitae"><b>CV</b></abbr>
+          </a>
+          only when looking for work
+        </p>
+      </section>
+
+      <!-- ID -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3z" />
+            <path d="M7 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0m8-2h2m-2 4h2M7 16h10" />
+          </g>
+        </svg>
+        <p>
+          and offers a
+          <a href="/marko-markovic.vcard"><b>VCard for download</b></a>
+          or scan below
+        </p>
+      </section>
+
+      <img src="/vcard.svg" alt="VCard" class="vcard" />
+
+      <footer>
+        <div class="last-update">Last update: __LAST_UPDATE__</div>
+      </footer>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
