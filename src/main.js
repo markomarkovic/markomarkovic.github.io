@@ -17,12 +17,13 @@ function old(y = 1980, m = 6, d = 17) {
     ).getDate()
     days += daysInPrevMonth
   }
-  let msg = `${years} years`
+  const pluralize = (n, word) => `${n} ${word}${n === 1 ? '' : 's'}`
+  let msg = pluralize(years, 'year')
   if (months !== 0) {
-    msg += `, ${months} months`
+    msg += `, ${pluralize(months, 'month')}`
   }
   if (days !== 0) {
-    msg += `, ${days} days`
+    msg += `, ${pluralize(days, 'day')}`
   }
   msg += ' old'
   return msg
