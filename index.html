@@ -3,12 +3,194 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Personal site of Marko Marković." />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Marko Marković" />
+    <meta
+      property="og:description"
+      content="Personal site of Marko Marković."
+    />
+    <meta property="og:url" content="https://okram.civokram.com/" />
+    <meta property="og:image" content="https://okram.civokram.com/avatar.jpg" />
+    <meta name="twitter:card" content="summary" />
     <title>Marko Marković</title>
-    <script type="module" crossorigin src="./assets/index-3a943af4.js"></script>
-    <link rel="stylesheet" href="./assets/index-49fcc61b.css">
+    <script>
+      ;(function () {
+        var stored = localStorage.getItem('theme')
+        var theme =
+          stored ||
+          (matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light')
+        document.documentElement.dataset.theme = theme
+      })()
+    </script>
+    <script type="module" crossorigin>(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();function e(e=1980,t=6,n=17){let r=new Date(e,t-1,n),i=new Date,a=i.getFullYear()-r.getFullYear(),o=i.getMonth()-r.getMonth(),s=i.getDate()-r.getDate();if(o<0&&(a--,o+=12),s<0){o=Math.max(0,o-1);let e=new Date(i.getFullYear(),i.getMonth(),0).getDate();s+=e}let c=(e,t)=>`${e} ${t}${e===1?``:`s`}`,l=c(a,`year`);return o!==0&&(l+=`, ${c(o,`month`)}`),s!==0&&(l+=`, ${c(s,`day`)}`),l+=` old`,l}document.getElementById(`age`).textContent=e();function t(){return matchMedia(`(prefers-color-scheme: dark)`).matches?`dark`:`light`}function n(){return localStorage.getItem(`theme`)||t()}function r(e,t){t?e.setAttribute(`hidden`,``):e.removeAttribute(`hidden`)}function i(e){document.documentElement.dataset.theme=e,r(document.getElementById(`icon-sun`),e!==`dark`),r(document.getElementById(`icon-moon`),e===`dark`)}i(n()),document.getElementById(`theme-toggle`).addEventListener(`click`,()=>{let e=n()===`dark`?`light`:`dark`;localStorage.setItem(`theme`,e),i(e)}),matchMedia(`(prefers-color-scheme: dark)`).addEventListener(`change`,()=>{localStorage.getItem(`theme`)||i(t())});</script>
+    <style rel="stylesheet" crossorigin>@import "https://fonts.googleapis.com/css2?family=PT+Sans&text=%20%2B%2C-.0123456789%3A%40ACDEGHLMPSTUVabcdefghiklmnoprstuvwy%C4%87&display=swap";:root{--font-family:"PT Sans", sans-serif;--color-bg:#fff;--color-text:#1a1a1a;--color-muted:#d1d5db;--color-border:#444}:root[data-theme=dark]{--color-bg:#15171c;--color-text:#e5e7eb;--color-muted:#6b7280;--color-border:#9ca3af}*{box-sizing:border-box;font-family:var(--font-family)}body{background:var(--color-bg);color:var(--color-text);margin:0;font-size:1.125rem}a{color:inherit;border-bottom:1px solid var(--color-border);text-decoration:none}abbr{border-bottom:1px dotted var(--color-border);padding-bottom:2px;text-decoration:none}.page{max-width:42rem;margin:2.5rem auto 0;padding:0 1rem}h1{margin:0 0 2.5rem;font-size:2.125rem;font-weight:400;line-height:1.25}section{align-items:center;margin-bottom:1.25rem;line-height:1;display:flex}section p{margin:0}.icon{flex-shrink:0;width:1.25rem;height:1.25rem;margin-right:1rem}.icon[hidden]{display:none}.vcard{margin:2.5rem 0}footer .last-update{color:var(--color-muted);text-align:right;padding-top:1.25rem;font-size:.875rem}.theme-toggle{width:2.5rem;height:2.5rem;color:var(--color-text);cursor:pointer;background:0 0;border:none;justify-content:center;align-items:center;padding:0;display:flex;position:fixed;top:1rem;right:1rem}.theme-toggle .icon{margin-right:0}
+/*$vite$:1*/</style>
   </head>
   <body>
-    <main id="app"></main>
-    
+    <div class="page">
+      <h1>Marko Marković</h1>
+
+      <!-- Homebase -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0-6 0" />
+            <path d="M17.657 16.657L13.414 20.9a2 2 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0z" />
+          </g>
+        </svg>
+        <p>is currently in <b>Abu Dhabi</b>, United Arab Emirates</p>
+        <!-- <p>is currently in <b>Belgrade</b>, Serbia</p> -->
+      </section>
+
+      <!-- Age -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1z" />
+            <path d="M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" />
+          </g>
+        </svg>
+        <p>is <span id="age"></span></p>
+      </section>
+
+      <!-- Language -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M4 5h7M9 3v2c0 4.418-2.239 8-5 8" />
+            <path d="M5 9c0 2.144 2.952 3.908 6.7 4m.3 7l4-9l4 9m-.9-2h-6.2" />
+          </g>
+        </svg>
+        <p>speaks <b>Serbian</b>, <b>English</b>, and <b>German</b></p>
+      </section>
+
+      <!-- Mail -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7z" />
+            <path d="m3 7l9 6l9-6" />
+          </g>
+        </svg>
+        <p>
+          uses
+          <a href="mailto:okram@civokram.com"><b>okram@civokram.com</b></a> as
+          a primary email address
+        </p>
+      </section>
+
+      <!-- Phone -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" />
+        </svg>
+        <p>
+          can be reached on
+          <a href="tel:+971502524342"
+            ><b><abbr title="United Arab Emirates">+971</abbr> 50 252 4342</b></a
+          >
+          phone number
+          <!-- when in UAE -->
+        </p>
+      </section>
+
+      <!-- Phone -->
+      <!--
+      <section>
+        <div class="icon"></div>
+        <p>
+          or on
+          <a href="tel:+38162200512"
+            ><b><abbr title="Serbia">+381</abbr> 62 200 512</b></a
+          >
+          when in Serbia
+        </p>
+      </section>
+      -->
+
+      <!-- GitHub -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2c2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2a4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6c-.6.6-.6 1.2-.5 2V21" />
+        </svg>
+        <p>
+          codes on
+          <a href="https://github.com/markomarkovic/"
+            >GitHub: <b>markomarkovic</b></a
+          >
+        </p>
+      </section>
+
+      <!-- CV -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M12 8v4l2 2" />
+            <path d="M3.05 11a9 9 0 1 1 .5 4m-.5 5v-5h5" />
+          </g>
+        </svg>
+        <p>
+          touches up his
+          <a href="https://markomarkovic.github.io/cv/"
+            ><b><abbr title="Curriculum Vitae">CV</abbr></b></a
+          >
+          only when looking for work
+        </p>
+      </section>
+
+      <!-- ID -->
+      <section>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <path d="M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3z" />
+            <path d="M7 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0m8-2h2m-2 4h2M7 16h10" />
+          </g>
+        </svg>
+        <p>
+          and offers a
+          <a href="./marko-markovic.vcard"><b>VCard for download</b></a>
+          or scan below
+        </p>
+      </section>
+
+      <img src="./vcard.svg" alt="VCard" class="vcard" />
+
+      <footer>
+        <div class="last-update">Last update: 2026-09-04</div>
+      </footer>
+    </div>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Toggle dark mode"
+    >
+      <svg class="icon" id="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7"
+        />
+      </svg>
+      <svg class="icon" id="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z"
+        />
+      </svg>
+    </button>
+
   </body>
 </html>
